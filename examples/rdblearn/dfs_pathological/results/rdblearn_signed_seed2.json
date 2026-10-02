@@ -1,0 +1,29 @@
+{
+  "system": "rdblearn",
+  "task": "signed",
+  "seed": 2,
+  "auroc": 0.5316,
+  "accuracy": 0.53,
+  "n_train": 1000,
+  "n_test": 300,
+  "n_dfs_columns": 9,
+  "dfs_columns_n_distinct": {
+    "d2__entities.COUNT(signals)": 1,
+    "d2__entities.MAX(signals.a)": 1,
+    "d2__entities.MAX(signals.b)": 1,
+    "d2__entities.MEAN(signals.a)": 1,
+    "d2__entities.MEAN(signals.b)": 1,
+    "d2__entities.MIN(signals.a)": 1,
+    "d2__entities.MIN(signals.b)": 1,
+    "d2__entities.STD(signals.a)": 1,
+    "d2__entities.STD(signals.b)": 1
+  },
+  "downstream_features": [
+    "entity_id"
+  ],
+  "packages": {
+    "rdblearn": "1.1",
+    "fastdfs": "1.1",
+    "tabpfn": "8.5.0"
+  }
+}

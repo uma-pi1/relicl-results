@@ -1,0 +1,9 @@
+- relbench.db=rel-event
+- relbench.task=user-ignore
+- run.val=true
+- method.use_max_reproducibility=true
+- ensemble.enable=true
+- run.test=true
+- fusion.early.reduce_per_estimator=true
+- ensemble.enable=false
+- method.seed=1

@@ -1,0 +1,207 @@
+model,kind,db,task,split,metric,value,source,note
+GraphSAGE,trained-gnn,rel-amazon,item-churn,test,auroc,0.8281,Robinson2024,
+RelGNN,trained-gnn,rel-amazon,item-churn,test,auroc,0.8264,Chen2025,
+RelGT,trained-gt,rel-amazon,item-churn,test,auroc,0.8255,Dwivedi2025b,
+RT,pretrained-relational,rel-amazon,item-churn,test,auroc,0.709,Ranjan2025a,
+GraphSAGE,trained-gnn,rel-amazon,user-churn,test,auroc,0.7042,Robinson2024,
+RelGNN,trained-gnn,rel-amazon,user-churn,test,auroc,0.7099,Chen2025,
+RelGT,trained-gt,rel-amazon,user-churn,test,auroc,0.7039,Dwivedi2025b,
+RT,pretrained-relational,rel-amazon,user-churn,test,auroc,0.640,Ranjan2025a,
+GraphSAGE,trained-gnn,rel-avito,user-clicks,test,auroc,0.6590,Robinson2024,
+RelGNN,trained-gnn,rel-avito,user-clicks,test,auroc,0.6823,Chen2025,
+RelGT,trained-gt,rel-avito,user-clicks,test,auroc,0.6830,Dwivedi2025b,
+RT,pretrained-relational,rel-avito,user-clicks,test,auroc,0.595,Ranjan2025a,
+GraphSAGE,trained-gnn,rel-avito,user-visits,test,auroc,0.6620,Robinson2024,
+RelGNN,trained-gnn,rel-avito,user-visits,test,auroc,0.6618,Chen2025,
+RelGT,trained-gt,rel-avito,user-visits,test,auroc,0.6678,Dwivedi2025b,
+RT,pretrained-relational,rel-avito,user-visits,test,auroc,0.618,Ranjan2025a,
+GraphSAGE,trained-gnn,rel-event,user-ignore,test,auroc,0.8162,Robinson2024,
+RelGNN,trained-gnn,rel-event,user-ignore,test,auroc,0.8618,Chen2025,
+RelGT,trained-gt,rel-event,user-ignore,test,auroc,0.8157,Dwivedi2025b,
+GraphSAGE,trained-gnn,rel-event,user-repeat,test,auroc,0.7689,Robinson2024,
+RelGNN,trained-gnn,rel-event,user-repeat,test,auroc,0.7961,Chen2025,
+RelGT,trained-gt,rel-event,user-repeat,test,auroc,0.7609,Dwivedi2025b,
+GraphSAGE,trained-gnn,rel-f1,driver-dnf,test,auroc,0.7262,Robinson2024,
+RelGNN,trained-gnn,rel-f1,driver-dnf,test,auroc,0.7529,Chen2025,
+RelGT,trained-gt,rel-f1,driver-dnf,test,auroc,0.7587,Dwivedi2025b,
+RT,pretrained-relational,rel-f1,driver-dnf,test,auroc,0.812,Ranjan2025a,
+GraphSAGE,trained-gnn,rel-f1,driver-top3,test,auroc,0.7554,Robinson2024,
+RelGNN,trained-gnn,rel-f1,driver-top3,test,auroc,0.8569,Chen2025,
+RelGT,trained-gt,rel-f1,driver-top3,test,auroc,0.8352,Dwivedi2025b,
+RT,pretrained-relational,rel-f1,driver-top3,test,auroc,0.893,Ranjan2025a,
+GraphSAGE,trained-gnn,rel-hm,user-churn,test,auroc,0.6988,Robinson2024,
+RelGNN,trained-gnn,rel-hm,user-churn,test,auroc,0.7093,Chen2025,
+RelGT,trained-gt,rel-hm,user-churn,test,auroc,0.6927,Dwivedi2025b,
+RT,pretrained-relational,rel-hm,user-churn,test,auroc,0.628,Ranjan2025a,
+GraphSAGE,trained-gnn,rel-stack,user-badge,test,auroc,0.8886,Robinson2024,
+RelGNN,trained-gnn,rel-stack,user-badge,test,auroc,0.8898,Chen2025,
+RelGT,trained-gt,rel-stack,user-badge,test,auroc,0.8632,Dwivedi2025b,
+RT,pretrained-relational,rel-stack,user-badge,test,auroc,0.801,Ranjan2025a,
+GraphSAGE,trained-gnn,rel-stack,user-engagement,test,auroc,0.9059,Robinson2024,
+RelGNN,trained-gnn,rel-stack,user-engagement,test,auroc,0.9075,Chen2025,
+RelGT,trained-gt,rel-stack,user-engagement,test,auroc,0.9053,Dwivedi2025b,
+RT,pretrained-relational,rel-stack,user-engagement,test,auroc,0.757,Ranjan2025a,
+GraphSAGE,trained-gnn,rel-trial,study-outcome,test,auroc,0.6860,Robinson2024,
+RelGNN,trained-gnn,rel-trial,study-outcome,test,auroc,0.7124,Chen2025,
+RelGT,trained-gt,rel-trial,study-outcome,test,auroc,0.6861,Dwivedi2025b,
+RT,pretrained-relational,rel-trial,study-outcome,test,auroc,0.518,Ranjan2025a,
+GraphSAGE,trained-gnn,rel-amazon,item-ltv,test,mae,50.053,Robinson2024,
+RelGNN,trained-gnn,rel-amazon,item-ltv,test,mae,48.767,Chen2025,
+RelGT,trained-gt,rel-amazon,item-ltv,test,mae,48.922,Dwivedi2025b,
+GraphSAGE,trained-gnn,rel-amazon,user-ltv,test,mae,14.313,Robinson2024,
+RelGNN,trained-gnn,rel-amazon,user-ltv,test,mae,14.23,Chen2025,
+RelGT,trained-gt,rel-amazon,user-ltv,test,mae,14.267,Dwivedi2025b,
+GraphSAGE,trained-gnn,rel-avito,ad-ctr,test,mae,0.041,Robinson2024,
+RelGNN,trained-gnn,rel-avito,ad-ctr,test,mae,0.037,Chen2025,
+RelGT,trained-gt,rel-avito,ad-ctr,test,mae,0.035,Dwivedi2025b,
+GraphSAGE,trained-gnn,rel-event,user-attendance,test,mae,0.258,Robinson2024,
+RelGNN,trained-gnn,rel-event,user-attendance,test,mae,0.238,Chen2025,
+RelGT,trained-gt,rel-event,user-attendance,test,mae,0.250,Dwivedi2025b,
+GraphSAGE,trained-gnn,rel-f1,driver-position,test,mae,4.022,Robinson2024,
+RelGNN,trained-gnn,rel-f1,driver-position,test,mae,3.798,Chen2025,
+RelGT,trained-gt,rel-f1,driver-position,test,mae,3.917,Dwivedi2025b,
+GraphSAGE,trained-gnn,rel-hm,item-sales,test,mae,0.056,Robinson2024,
+RelGNN,trained-gnn,rel-hm,item-sales,test,mae,0.054,Chen2025,
+RelGT,trained-gt,rel-hm,item-sales,test,mae,0.054,Dwivedi2025b,
+GraphSAGE,trained-gnn,rel-stack,post-votes,test,mae,0.065,Robinson2024,
+RelGNN,trained-gnn,rel-stack,post-votes,test,mae,0.065,Chen2025,
+RelGT,trained-gt,rel-stack,post-votes,test,mae,0.065,Dwivedi2025b,
+GraphSAGE,trained-gnn,rel-trial,site-success,test,mae,0.400,Robinson2024,
+RelGNN,trained-gnn,rel-trial,site-success,test,mae,0.301,Chen2025,
+RelGT,trained-gt,rel-trial,site-success,test,mae,0.326,Dwivedi2025b,
+GraphSAGE,trained-gnn,rel-trial,study-adverse,test,mae,44.473,Robinson2024,
+RelGNN,trained-gnn,rel-trial,study-adverse,test,mae,44.461,Chen2025,
+RelGT,trained-gt,rel-trial,study-adverse,test,mae,43.992,Dwivedi2025b,
+RT,pretrained-relational,rel-amazon,item-ltv,test,r2,0.325,Ranjan2025a,
+RT,pretrained-relational,rel-amazon,user-ltv,test,r2,0.369,Ranjan2025a,
+RT,pretrained-relational,rel-avito,ad-ctr,test,r2,0.045,Ranjan2025a,
+RT,pretrained-relational,rel-f1,driver-position,test,r2,0.524,Ranjan2025a,
+RT,pretrained-relational,rel-hm,item-sales,test,r2,0.14,Ranjan2025a,
+RT,pretrained-relational,rel-stack,post-votes,test,r2,0.339,Ranjan2025a,
+RT,pretrained-relational,rel-trial,site-success,test,r2,0.045,Ranjan2025a,
+RT,pretrained-relational,rel-trial,study-adverse,test,r2,0.026,Ranjan2025a,
+RDBLearn,pretrained-tabular,rel-amazon,item-churn,test,auroc,0.8207,Xu2026a,
+RDBLearn,pretrained-tabular,rel-amazon,user-churn,test,auroc,0.6757,Xu2026a,
+RDBLearn,pretrained-tabular,rel-avito,user-clicks,test,auroc,0.6904,Xu2026a,
+RDBLearn,pretrained-tabular,rel-avito,user-visits,test,auroc,0.6549,Xu2026a,
+RDBLearn,pretrained-tabular,rel-hm,user-churn,test,auroc,0.6805,Xu2026a,
+RDBLearn,pretrained-tabular,rel-stack,user-badge,test,auroc,0.8526,Xu2026a,
+RDBLearn,pretrained-tabular,rel-stack,user-engagement,test,auroc,0.8939,Xu2026a,
+RDBLearn,pretrained-tabular,rel-trial,study-outcome,test,auroc,0.7158,Xu2026a,
+RDBLearn,pretrained-tabular,rel-amazon,item-ltv,test,mae,48.559,Xu2026a,
+RDBLearn,pretrained-tabular,rel-amazon,user-ltv,test,mae,14.540,Xu2026a,
+RDBLearn,pretrained-tabular,rel-avito,ad-ctr,test,mae,0.034,Xu2026a,
+RDBLearn,pretrained-tabular,rel-hm,item-sales,test,mae,0.064,Xu2026a,
+RDBLearn,pretrained-tabular,rel-stack,post-votes,test,mae,0.068,Xu2026a,
+RDBLearn,pretrained-tabular,rel-trial,site-success,test,mae,0.424,Xu2026a,
+RDBLearn,pretrained-tabular,rel-trial,study-adverse,test,mae,43.913,Xu2026a,
+KumoRFM-2,pretrained-relational,rel-amazon,item-churn,test,auroc,0.8217,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-amazon,user-churn,test,auroc,0.6910,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-avito,user-clicks,test,auroc,0.6742,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-avito,user-visits,test,auroc,0.6941,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-event,user-ignore,test,auroc,0.9083,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-event,user-repeat,test,auroc,0.8166,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-f1,driver-dnf,test,auroc,0.8459,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-f1,driver-top3,test,auroc,0.9218,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-hm,user-churn,test,auroc,0.6927,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-stack,user-badge,test,auroc,0.8715,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-stack,user-engagement,test,auroc,0.8940,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-trial,study-outcome,test,auroc,0.7203,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-amazon,item-ltv,test,mae,46.992,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-amazon,user-ltv,test,mae,13.921,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-avito,ad-ctr,test,mae,0.034,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-event,user-attendance,test,mae,0.235,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-f1,driver-position,test,mae,2.854,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-hm,item-sales,test,mae,0.034,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-stack,post-votes,test,mae,0.064,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-trial,site-success,test,mae,0.433,Hudovernik2026a,
+KumoRFM-2,pretrained-relational,rel-trial,study-adverse,test,mae,43.293,Hudovernik2026a,
+DS+LightGBM,trained-gbdt,rel-amazon,item-churn,test,auroc,0.8180,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 3
+DS+LightGBM,trained-gbdt,rel-amazon,user-churn,test,auroc,0.6760,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 3
+DS+LightGBM,trained-gbdt,rel-avito,user-clicks,test,auroc,0.6427,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 3
+DS+LightGBM,trained-gbdt,rel-avito,user-visits,test,auroc,0.6446,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 3
+DS+LightGBM,trained-gbdt,rel-event,user-ignore,test,auroc,0.8423,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 3
+DS+LightGBM,trained-gbdt,rel-event,user-repeat,test,auroc,0.7542,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 3
+DS+LightGBM,trained-gbdt,rel-f1,driver-dnf,test,auroc,0.6980,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 3
+DS+LightGBM,trained-gbdt,rel-f1,driver-top3,test,auroc,0.8240,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 3
+DS+LightGBM,trained-gbdt,rel-hm,user-churn,test,auroc,0.6900,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 3
+DS+LightGBM,trained-gbdt,rel-stack,user-badge,test,auroc,0.8620,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 3
+DS+LightGBM,trained-gbdt,rel-stack,user-engagement,test,auroc,0.9030,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 3
+DS+LightGBM,trained-gbdt,rel-trial,study-outcome,test,auroc,0.7200,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 3
+DS+LightGBM,trained-gbdt,rel-amazon,item-ltv,test,mae,41.122,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 7
+DS+LightGBM,trained-gbdt,rel-amazon,user-ltv,test,mae,13.928,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 7
+DS+LightGBM,trained-gbdt,rel-avito,ad-ctr,test,mae,0.044,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 7
+DS+LightGBM,trained-gbdt,rel-event,user-attendance,test,mae,0.284,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 7
+DS+LightGBM,trained-gbdt,rel-f1,driver-position,test,mae,3.963,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 7
+DS+LightGBM,trained-gbdt,rel-hm,item-sales,test,mae,0.036,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 7
+DS+LightGBM,trained-gbdt,rel-stack,post-votes,test,mae,0.065,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 7
+DS+LightGBM,trained-gbdt,rel-trial,site-success,test,mae,0.407,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 7
+DS+LightGBM,trained-gbdt,rel-trial,study-adverse,test,mae,40.581,Hudovernik2026a,DS+LightGBM (Robinson2024 method) as reported in Hudovernik2026a Table 7
+PluRel,pretrained-relational,rel-amazon,item-churn,test,auroc,0.725,Kothapalli2026,
+PluRel,pretrained-relational,rel-amazon,user-churn,test,auroc,0.650,Kothapalli2026,
+PluRel,pretrained-relational,rel-avito,user-clicks,test,auroc,0.479,Kothapalli2026,
+PluRel,pretrained-relational,rel-avito,user-visits,test,auroc,0.634,Kothapalli2026,
+PluRel,pretrained-relational,rel-f1,driver-dnf,test,auroc,0.810,Kothapalli2026,
+PluRel,pretrained-relational,rel-f1,driver-top3,test,auroc,0.884,Kothapalli2026,
+PluRel,pretrained-relational,rel-hm,user-churn,test,auroc,0.660,Kothapalli2026,
+PluRel,pretrained-relational,rel-stack,user-badge,test,auroc,0.820,Kothapalli2026,
+PluRel,pretrained-relational,rel-stack,user-engagement,test,auroc,0.862,Kothapalli2026,
+PluRel,pretrained-relational,rel-trial,study-outcome,test,auroc,0.518,Kothapalli2026,
+PluRel,pretrained-relational,rel-amazon,item-ltv,test,r2,0.405,Kothapalli2026,R2 as reported; not convertible to MAE without target variance
+PluRel,pretrained-relational,rel-amazon,user-ltv,test,r2,0.185,Kothapalli2026,R2 as reported; not convertible to MAE without target variance
+PluRel,pretrained-relational,rel-avito,ad-ctr,test,r2,0.049,Kothapalli2026,R2 as reported; not convertible to MAE without target variance
+PluRel,pretrained-relational,rel-f1,driver-position,test,r2,0.555,Kothapalli2026,R2 as reported; not convertible to MAE without target variance
+PluRel,pretrained-relational,rel-hm,item-sales,test,r2,0.200,Kothapalli2026,R2 as reported; not convertible to MAE without target variance
+PluRel,pretrained-relational,rel-stack,post-votes,test,r2,0.255,Kothapalli2026,R2 as reported; not convertible to MAE without target variance
+PluRel,pretrained-relational,rel-trial,site-success,test,r2,0.386,Kothapalli2026,R2 as reported; not convertible to MAE without target variance
+PluRel,pretrained-relational,rel-trial,study-adverse,test,r2,0.016,Kothapalli2026,R2 as reported; not convertible to MAE without target variance
+TabPFN-REL-Client,pretrained-tabular,rel-amazon,item-churn,test,auroc,0.8280,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-amazon,user-churn,test,auroc,0.7086,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-avito,user-clicks,test,auroc,0.6752,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-avito,user-visits,test,auroc,0.6680,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-event,user-ignore,test,auroc,0.8787,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-event,user-repeat,test,auroc,0.7593,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-f1,driver-dnf,test,auroc,0.7322,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-f1,driver-top3,test,auroc,0.7714,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-hm,user-churn,test,auroc,0.7052,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-stack,user-badge,test,auroc,0.8804,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-stack,user-engagement,test,auroc,0.9060,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-trial,study-outcome,test,auroc,0.7647,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-amazon,item-churn,test,auroc,0.8279,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-amazon,user-churn,test,auroc,0.7024,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-avito,user-clicks,test,auroc,0.6145,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-avito,user-visits,test,auroc,0.6688,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-event,user-ignore,test,auroc,0.7014,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-event,user-repeat,test,auroc,0.7693,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-f1,driver-dnf,test,auroc,0.7145,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-f1,driver-top3,test,auroc,0.7929,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-hm,user-churn,test,auroc,0.7057,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-stack,user-badge,test,auroc,0.8635,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-stack,user-engagement,test,auroc,0.9058,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-trial,study-outcome,test,auroc,0.7306,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-amazon,item-ltv,test,mae,46.8,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-amazon,user-ltv,test,mae,14.4,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-avito,ad-ctr,test,mae,0.0311,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-event,user-attendance,test,mae,0.244,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-f1,driver-position,test,mae,3.769,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-hm,item-sales,test,mae,0.0605,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-stack,post-votes,test,mae,0.0679,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-trial,site-success,test,mae,0.413,Hayler2026
+TabPFN-REL-Client,pretrained-tabular,rel-trial,study-adverse,test,mae,39.8,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-amazon,item-ltv,test,mae,47.8,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-amazon,user-ltv,test,mae,14.4,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-avito,ad-ctr,test,mae,0.0314,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-event,user-attendance,test,mae,0.239,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-f1,driver-position,test,mae,3.762,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-hm,item-sales,test,mae,0.0614,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-stack,post-votes,test,mae,0.0680,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-trial,site-success,test,mae,0.386,Hayler2026
+TabPFN-REL-Local,pretrained-tabular,rel-trial,study-adverse,test,mae,42.6,Hayler2026
+RT-pretrained-on-target-db,pretrained-relational,rel-amazon,item-ltv,test,r2,0.322,Ranjan2025a
+RT-pretrained-on-target-db,pretrained-relational,rel-amazon,user-ltv,test,r2,0.383,Ranjan2025a
+RT-pretrained-on-target-db,pretrained-relational,rel-avito,ad-ctr,test,r2,0.080,Ranjan2025a
+RT-pretrained-on-target-db,pretrained-relational,rel-f1,driver-position,test,r2,0.587,Ranjan2025a
+RT-pretrained-on-target-db,pretrained-relational,rel-hm,item-sales,test,r2,0.309,Ranjan2025a
+RT-pretrained-on-target-db,pretrained-relational,rel-stack,post-votes,test,r2,0.350,Ranjan2025a
+RT-pretrained-on-target-db,pretrained-relational,rel-trial,site-success,test,r2,0.051,Ranjan2025a
+RT-pretrained-on-target-db,pretrained-relational,rel-trial,study-adverse,test,r2,0.031,Ranjan2025a

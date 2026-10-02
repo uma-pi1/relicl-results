@@ -1,0 +1,10 @@
+- relbench.db=rel-trial
+- relbench.task=site-success
+- run.val=true
+- method.use_max_reproducibility=true
+- ensemble.enable=true
+- method.target_transform=log1p
+- run.test=true
+- vectorizer.text.enable=false
+- ensemble.enable=false
+- method.seed=2

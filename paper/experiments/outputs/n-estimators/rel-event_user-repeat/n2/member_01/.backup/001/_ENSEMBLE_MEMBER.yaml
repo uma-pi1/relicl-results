@@ -1,0 +1,10 @@
+- relbench.db=rel-event
+- relbench.task=user-repeat
+- run.val=true
+- method.use_max_reproducibility=true
+- ensemble.enable=true
+- run.test=false
+- tabicl.n_estimators=2
+- output.trace.timings=true
+- ensemble.enable=false
+- method.seed=1

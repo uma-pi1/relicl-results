@@ -1,0 +1,52 @@
+val:
+  auroc: 0.7501672240802676
+  ap: 0.7212961466393284
+  f1: 0.7034482758620689
+  precision: 0.6375
+  recall: 0.7846153846153846
+  accuracy: 0.6791044776119403
+  accuracy_var: 0.217921586099354
+  accuracy_std: 0.46682072158308696
+  accuracy_sem: 0.0285156140849076
+  confusion_matrix:
+  - - 80
+    - 58
+  - - 28
+    - 102
+  n: 268
+  n_0: 138
+  n_1: 130
+  auroc_member_mean: 0.7175794314381271
+  auroc_member_var: 0.002804859966662899
+  auroc_member_std: 0.05296092868014022
+  auroc_member_sem: 0.02648046434007011
+  accuracy_member_mean: 0.664179104477612
+  accuracy_member_var: 0.00202346476572362
+  accuracy_member_std: 0.044982938607027664
+  accuracy_member_sem: 0.022491469303513832
+test:
+  auroc: 0.7934157754010696
+  ap: 0.7917151653115283
+  f1: 0.6967213114754098
+  precision: 0.6343283582089553
+  recall: 0.7727272727272727
+  accuracy: 0.6991869918699187
+  accuracy_var: 0.21032454226981293
+  accuracy_std: 0.4586115374364375
+  accuracy_sem: 0.029240003661164797
+  confusion_matrix:
+  - - 87
+    - 49
+  - - 25
+    - 85
+  n: 246
+  n_0: 136
+  n_1: 110
+  auroc_member_mean: 0.7844585561497326
+  auroc_member_var: 5.183906936620203e-06
+  auroc_member_std: 0.00227681947826792
+  auroc_member_sem: 0.00113840973913396
+  accuracy_member_mean: 0.6880081300813008
+  accuracy_member_var: 0.0007091788397558785
+  accuracy_member_std: 0.026630411933649817
+  accuracy_member_sem: 0.013315205966824908

@@ -1,0 +1,11 @@
+- relbench.db=rel-hm
+- relbench.task=item-sales
+- run.val=true
+- method.use_max_reproducibility=true
+- ensemble.enable=true
+- method.target_transform=log1p
+- run.test=false
+- tabicl.n_estimators=1
+- output.trace.timings=true
+- ensemble.enable=false
+- method.seed=2

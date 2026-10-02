@@ -1,0 +1,28 @@
+{
+  "system": "relicl",
+  "depth": 3,
+  "model": "tabpfn",
+  "seed": 2,
+  "auroc": 1.0,
+  "ap": 1.0,
+  "f1": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "accuracy": 1.0,
+  "accuracy_var": 0.0,
+  "accuracy_std": 0.0,
+  "accuracy_sem": 0.0,
+  "confusion_matrix": [
+    [
+      150,
+      0
+    ],
+    [
+      0,
+      150
+    ]
+  ],
+  "n": 300,
+  "n_0": 150,
+  "n_1": 150
+}

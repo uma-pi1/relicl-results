@@ -1,0 +1,10 @@
+- relbench.db=rel-f1
+- relbench.task=driver-top3
+- run.val=true
+- method.use_max_reproducibility=true
+- ensemble.enable=true
+- run.test=false
+- tabicl.n_estimators=8
+- output.trace.timings=true
+- ensemble.enable=false
+- method.seed=2

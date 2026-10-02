@@ -1,0 +1,8 @@
+- relbench.db=rel-stack
+- relbench.task=user-badge
+- run.val=true
+- method.use_max_reproducibility=true
+- ensemble.enable=true
+- run.test=true
+- ensemble.enable=false
+- method.seed=1

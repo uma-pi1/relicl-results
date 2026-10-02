@@ -1,0 +1,9 @@
+- relbench.db=rel-avito
+- relbench.task=user-clicks
+- run.val=true
+- method.use_max_reproducibility=true
+- ensemble.enable=true
+- run.test=true
+- rewrite.eliminate_junction_tables_depth=2
+- ensemble.enable=false
+- method.seed=2

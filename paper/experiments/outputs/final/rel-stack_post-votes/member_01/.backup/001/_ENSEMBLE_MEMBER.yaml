@@ -1,0 +1,9 @@
+- relbench.db=rel-stack
+- relbench.task=post-votes
+- run.val=true
+- method.use_max_reproducibility=true
+- ensemble.enable=true
+- method.target_transform=log1p
+- run.test=true
+- ensemble.enable=false
+- method.seed=1

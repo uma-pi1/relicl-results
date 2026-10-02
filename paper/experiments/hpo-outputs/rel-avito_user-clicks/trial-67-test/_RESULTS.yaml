@@ -1,0 +1,19 @@
+test:
+  auroc: 0.6550666238864563
+  ap: 0.04948997933794386
+  f1: 0.0
+  precision: .nan
+  recall: 0.0
+  accuracy: 0.984582048504042
+  accuracy_var: 0.015180238267626323
+  accuracy_std: 0.12320810958547462
+  accuracy_sem: 0.0005623889407568444
+  confusion_matrix:
+  - - 47256
+    - 0
+  - - 740
+    - 0
+  n: 47996
+  n_0: 47256
+  n_1: 740
+val: {}

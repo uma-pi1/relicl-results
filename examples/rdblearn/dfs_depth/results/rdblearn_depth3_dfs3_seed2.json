@@ -1,0 +1,40 @@
+{
+  "system": "rdblearn",
+  "depth": 3,
+  "dfs_max_depth": 3,
+  "seed": 2,
+  "auroc": 1.0,
+  "accuracy": 1.0,
+  "n_train": 1000,
+  "n_test": 300,
+  "n_dfs_columns": 18,
+  "dfs_columns_n_distinct": {
+    "d2__entities.COUNT(hop2)": 1,
+    "d3__entities.MAX(hop2.COUNT(hop3))": 1,
+    "d3__entities.MAX(hop2.MEAN(hop3.bit))": 2,
+    "d3__entities.MAX(hop2.MIN(hop3.bit))": 2,
+    "d3__entities.MAX(hop2.STD(hop3.bit))": 1,
+    "d3__entities.MEAN(hop2.COUNT(hop3))": 1,
+    "d3__entities.MEAN(hop2.MAX(hop3.bit))": 2,
+    "d3__entities.MEAN(hop2.MEAN(hop3.bit))": 2,
+    "d3__entities.MEAN(hop2.MIN(hop3.bit))": 2,
+    "d3__entities.MEAN(hop2.STD(hop3.bit))": 1,
+    "d3__entities.MIN(hop2.COUNT(hop3))": 1,
+    "d3__entities.MIN(hop2.MAX(hop3.bit))": 2,
+    "d3__entities.MIN(hop2.MEAN(hop3.bit))": 2,
+    "d3__entities.MIN(hop2.STD(hop3.bit))": 1,
+    "d3__entities.STD(hop2.COUNT(hop3))": 1,
+    "d3__entities.STD(hop2.MAX(hop3.bit))": 1,
+    "d3__entities.STD(hop2.MEAN(hop3.bit))": 1,
+    "d3__entities.STD(hop2.MIN(hop3.bit))": 1
+  },
+  "downstream_features": [
+    "entity_id",
+    "d3__entities.MAX(hop2.MEAN(hop3.bit))"
+  ],
+  "packages": {
+    "rdblearn": "1.1",
+    "fastdfs": "1.1",
+    "tabpfn": "8.5.0"
+  }
+}

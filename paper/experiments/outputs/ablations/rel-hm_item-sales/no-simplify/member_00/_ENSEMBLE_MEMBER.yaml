@@ -1,0 +1,10 @@
+- relbench.db=rel-hm
+- relbench.task=item-sales
+- run.val=true
+- method.use_max_reproducibility=true
+- ensemble.enable=true
+- method.target_transform=log1p
+- run.test=true
+- rewrite.simplify=null
+- ensemble.enable=false
+- method.seed=0

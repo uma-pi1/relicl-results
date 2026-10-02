@@ -1,0 +1,9 @@
+- relbench.db=rel-f1
+- relbench.task=driver-top3
+- run.val=true
+- method.use_max_reproducibility=true
+- ensemble.enable=true
+- run.test=true
+- rewrite.count_feature_window_days=[1,7,28]
+- ensemble.enable=false
+- method.seed=2

@@ -1,0 +1,10 @@
+- relbench.db=rel-f1
+- relbench.task=driver-position
+- run.val=true
+- method.use_max_reproducibility=true
+- ensemble.enable=true
+- method.target_transform=log1p
+- run.test=true
+- rewrite.eliminate_junction_tables_depth=2
+- ensemble.enable=false
+- method.seed=2

@@ -1,0 +1,9 @@
+- relbench.db=rel-trial
+- relbench.task=study-outcome
+- run.val=true
+- method.use_max_reproducibility=true
+- ensemble.enable=true
+- run.test=true
+- vectorizer.relative_time=false
+- ensemble.enable=false
+- method.seed=1

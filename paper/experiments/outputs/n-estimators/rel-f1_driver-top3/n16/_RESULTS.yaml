@@ -1,0 +1,27 @@
+val:
+  auroc: 0.7213810897493327
+  ap: 0.3665146722719037
+  f1: 0.1807909604519774
+  precision: 0.27586206896551724
+  recall: 0.13445378151260504
+  accuracy: 0.7534013605442177
+  accuracy_var: 0.1857877504743394
+  accuracy_std: 0.4310310319157304
+  accuracy_sem: 0.017775420164687795
+  confusion_matrix:
+  - - 427
+    - 42
+  - - 103
+    - 16
+  n: 588
+  n_0: 469
+  n_1: 119
+  auroc_member_mean: 0.7174481732991703
+  auroc_member_var: 3.0613178003393566e-05
+  auroc_member_std: 0.00553291767545782
+  auroc_member_sem: 0.003194431509329611
+  accuracy_member_mean: 0.7579365079365079
+  accuracy_member_var: 9.641044626466759e-07
+  accuracy_member_std: 0.0009818882129074959
+  accuracy_member_sem: 0.0005668934240362633
+test: {}

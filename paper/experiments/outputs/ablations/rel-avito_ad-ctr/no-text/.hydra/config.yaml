@@ -1,0 +1,85 @@
+backend: pandas
+relbench:
+  db: rel-avito
+  task: ad-ctr
+run:
+  val: true
+  test: true
+  dry: false
+method:
+  model: tabicl
+  test_batch_size: 5000
+  seed: 0
+  target_transform: log1p
+  use_max_reproducibility: true
+tabicl:
+  n_estimators: 8
+  verbose: false
+  checkpoint_version: null
+  model_path: null
+  outlier_threshold: 4.0
+  norm_methods: null
+  feat_shuffle_method: latin
+  regression_output: median
+tabpfn: null
+tabfm: null
+fusion:
+  inference: one_pass
+  tabular_gnn: null
+  key_pooling: mean
+  shortest_path_pooling: false
+  type: early
+  late: null
+  early:
+    reduce_dim: true
+    reduce_per_estimator: false
+    reduction_method: gaussian_random_projection
+    reduction_dim: 32
+  allow_context_from_future: false
+rewrite:
+  count_features: true
+  count_features_after_simplify: true
+  count_feature_window_days: null
+  simplify: default
+  eliminate_junction_tables_depth: 1
+sampling:
+  context_tables_sample_size: 65536
+  train:
+    sample_size: 32768
+    restrict_to_test_keys: true
+    anchor_budget_fraction: 0.75
+    only_fill_from_test_keys: false
+    recency_half_life_steps: 1.0
+vectorizer:
+  type: default
+  n_jobs: -1
+  array_col_width: 3
+  relative_time: true
+  text:
+    enable: false
+    model_name: sentence-transformers/all-MiniLM-L6-v2
+    batch_size: 256
+    reduction_dim: 16
+    reduction_method: pca
+    min_unique: 20
+    heuristic_sample_size: 10000
+    min_mean_words: 4.0
+output:
+  trace:
+    enable: true
+    echo: false
+    disabled_events_regex: .*_debug
+    enabled_events_regex: ''
+    timings: true
+  predictions: true
+  progress: true
+  graphs: false
+  all_shapes: false
+  dump_final_table: false
+ensemble:
+  enable: true
+  members:
+  - - method.seed=0
+  - - method.seed=1
+  - - method.seed=2
+  average_logits: true

@@ -1,0 +1,13 @@
+method,system,depth,seed,auroc,accuracy
+RDBLearn (depth bound 2),rdblearn,3,0,0.509511111111111,0.4766666666666667
+RDBLearn (depth bound 2),rdblearn,3,1,0.5056444444444445,0.51
+RDBLearn (depth bound 2),rdblearn,3,2,0.5090666666666666,0.5133333333333333
+RDBLearn (depth bound 3),rdblearn,3,0,1.0,1.0
+RDBLearn (depth bound 3),rdblearn,3,1,1.0,1.0
+RDBLearn (depth bound 3),rdblearn,3,2,1.0,1.0
+"RelICL (TabICL, unbounded)",relicl,3,0,1.0,1.0
+"RelICL (TabICL, unbounded)",relicl,3,1,1.0,1.0
+"RelICL (TabICL, unbounded)",relicl,3,2,1.0,1.0
+"RelICL (TabPFN, unbounded)",relicl,3,0,0.9993777777777778,0.9866666666666667
+"RelICL (TabPFN, unbounded)",relicl,3,1,1.0,0.9966666666666667
+"RelICL (TabPFN, unbounded)",relicl,3,2,1.0,1.0

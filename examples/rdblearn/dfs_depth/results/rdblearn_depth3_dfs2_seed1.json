@@ -1,0 +1,22 @@
+{
+  "system": "rdblearn",
+  "depth": 3,
+  "dfs_max_depth": 2,
+  "seed": 1,
+  "auroc": 0.5056444444444445,
+  "accuracy": 0.51,
+  "n_train": 1000,
+  "n_test": 300,
+  "n_dfs_columns": 1,
+  "dfs_columns_n_distinct": {
+    "d2__entities.COUNT(hop2)": 1
+  },
+  "downstream_features": [
+    "entity_id"
+  ],
+  "packages": {
+    "rdblearn": "1.1",
+    "fastdfs": "1.1",
+    "tabpfn": "8.5.0"
+  }
+}

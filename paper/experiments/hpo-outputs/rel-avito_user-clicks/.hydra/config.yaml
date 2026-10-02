@@ -1,0 +1,30 @@
+relbench:
+  db: rel-avito
+  task: user-clicks
+  hp_metric: null
+run_test: false
+test_top_k: 1
+optuna:
+  study_name: ${relbench.db}-${relbench.task}
+  n_trials: 100
+  timeout_h: 47.5
+  trial_timeout_multiplier: 4.0
+  trial_timeout_warmup: 3
+  sampler: random
+  seed: 0
+  load_if_exists: false
+trial_seeds:
+  sample: true
+  'n': 1
+params:
+  sampling.train.anchor_budget_fraction: choice(0.25, 0.75)
+  sampling.train.sample_size: choice(16384, 32768, 65536)
+  sampling.context_tables_sample_size: choice(32768, 65536)
+  rewrite.count_features_after_simplify: choice(true, false)
+  rewrite.count_feature_window_days: choice(null, [1,7,28], [1,3,7,28])
+  vectorizer.relative_time: choice(true, false)
+  fusion.early.reduction_dim: choice(32, 64)
+  fusion.early.reduction_method: choice(gaussian_random_projection, pca, first_k)
+  fusion.key_pooling: choice(mean, max, sum)
+  tabicl.outlier_threshold: choice(4.0, 8.0)
+conditional_params: []
